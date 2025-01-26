@@ -1,0 +1,1 @@
+docker run --name medusa-postgres -e POSTGRES_USER=medusa -e POSTGRES_PASSWORD=medusa -e POSTGRES_DB=medusa -p 5432:5432 -d postgres
